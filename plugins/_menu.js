@@ -27,7 +27,7 @@ Description : ${i.desc}\`\`\``
     } else {
       let { prefix } = message;
       let [date, time] = new Date()
-        .toLocaleString("en-IN", { timeZone: "Asia/Kolkata" })
+        .toLocaleString("en-IR", { timeZone: "Asia/Tehran" })
         .split(",");
       let menu = `╭━━━━━ᆫ ${BOT_NAME} ᄀ━━━
 ┃ ⎆  *OWNER* :  ${OWNER_NAME}
@@ -87,7 +87,7 @@ let comad = cmnd.filter(({ type }) => type == cmmd);
         buttons: [
           {
             buttonId: `${prefix}ping`,
-            buttonText: { displayText: serif_B("PING 🎈") },
+            buttonText: { displayText: serif_B("test 🎈") },
           },
           {
             buttonId: `${prefix}list`,
